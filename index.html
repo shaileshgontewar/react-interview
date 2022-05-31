@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interview Prep</title>
+    <link rel="shortcut icon" href="./copy-writing.png" type="image/x-icon" />
+    <style>
+      * {
+        background-color: rgb(240, 149, 116);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Answers React</h1>
+
+    <hr />
+    <ul>
+      <li>
+        1] <b>React & Features</b> - Created by <u> Jordan Walke </u>, software
+        engineer in FB , and first deployed in the FB Newsfeed and later in
+        Whatsapp & Instagram. <br />
+        It is an open source library developed by facebook in 2011. It is used
+        to create <u>single page applications</u> by following component based
+        approach by creating <u>reusable UI components</u> . It is used for
+        developing interactive view layer of web and mobile applications. <br />
+        Features of react include: <br />
+        i) Virtual DOM <br />
+        ii) JSX <br />
+        iii) Components which can be reused. <br />
+        iv) One way data Binding <br />
+        v) Good community support <br />
+        vi) Easy learning curve
+      </li>
+      <br />
+      <hr />
+      <li>
+        <b>Virtual DOM</b> - Whenever an application gets loaded in the browser
+        a Document Object Model is created, In which each element is treated as
+        an object. When a react application is loaded and the react components
+        are mounted, virtual dom is created. It is a
+        <u>lightweight copy of the actual DOM</u>. <br />
+        When any user makes changes which leads to state updation, the changes
+        will go to virtual dom. <br />
+        React has two virtual dom, one virtual dom gets created at the time of
+        mounting of react component so it is a copy of your real dom. Another
+        virtual dom is the dom which contains the new changes, updated state
+        variables values. Now these two virtual doms will get compared with each
+        other and will check for the new changes. this complete procedure is
+        known as <u>diffing algorithm</u>. Now the new changes will be updated
+        in your Real dom. this procedure is known as <u>Recoinciliation</u>.
+      </li>
+      <br />
+      <hr />
+      <li>
+        <b>Diffing Algorithm</b> - Whenever there is a change in the state of
+        the UI elements, a new virtual DOM is created. Then the new virtual DOM
+        and the previous <u>virtual DOM are compared</u> with each other. This
+        comparing is called DOM diffing.
+      </li>
+      <br />
+      <hr />
+      <li>
+        <b>React Vs Vue Vs Angular</b> - React is a <u>JS Library</u>. Library
+        is a set of reusable functions used by computer programs. Framework is a
+        piece of code that dictates the architecture of a project. <br />
+        Library is called by the code, but in framework, framework calls the
+        code. We can control the data flow in library using methods, but in
+        framework we do not have any control over the data flow. It decides the
+        data flow which is nothing but it calls the code. Performance-wise ,
+        React is much much better than Angular and Vue. br React has an
+        <u>easy learning curve</u>, and it helps to make <u>SPA</u>. It consists
+        of <u>Virtual DOM</u> and It has a <u>great community support</u> which
+        means that whenever you get stuck somewhere, you can get solutions to
+        your code almost instantly.
+      </li>
+      <br />
+      <hr />
+      <li>
+        <b>Functional Vs Class Components</b> - i) Class Components uses
+        <u>lifecycle methods</u> while Functional Components use <u>hooks</u>.
+        <br />
+        ii) Class Components are called <u>stateful components</u> and
+        Functional Components are called <u>stateless components</u>. <br />
+        iii) <u>render function</u> in Class Components is present, while
+        Functional Components only consists of <u>return</u>. <br />
+        iv)Class Components accept <u>state and props</u> both, while Functional
+        Components accepts <u>only props</u> as an argument. <br />
+        v) Class Components have <u>complex code structure</u> which can be hard
+        to read and write while Functional Components are
+        <u>simple to use</u> and easy to read and write. <br />
+        vi) <u>this keyword</u> is used in Class Components but not in
+        Functional Components.
+      </li>
+      <br />
+      <hr />
+
+      <li>
+        <b>Stateful Vs Stateless Components</b> - In React, a stateful component
+        is a component that <u>holds some state</u>.They are also called
+        <u>smart components/Class Components</u>.They can be reused.
+        <br />
+        Stateless components, by contrast, have <u>no state</u>. Both types of
+        components can use props. They are also called
+        <u>dumb components/Functional Components</u> and are easy to
+        understand.They do not work with react lifecycle.
+      </li>
+      <br />
+      <hr />
+      <li>
+        <b>Phases of React component Lifecycle</b> - In ReactJS, every component
+        creation process involves various lifecycle methods. These lifecycle
+        methods are termed as <u>component's lifecycle</u>. These lifecycle
+        methods are not very complicated and called at various points during a
+        component's life. The lifecycle of the component is divided into four
+        phases. They are: <br />
+        <u>Initial Phase</u> <br />
+        <u>Mounting Phase</u> <br />
+        <u>Updating Phase</u> <br />
+        <u>Unmounting Phase</u> <br />
+        Each phase contains some lifecycle methods that are specific to the
+        particular phase
+      </li>
+    </ul>
+  </body>
+</html>
