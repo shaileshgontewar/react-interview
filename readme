@@ -1,0 +1,38 @@
+
+Interview Prep Questions with Answers (React)✍🏻
+
+    1️⃣React & Features - Created by Jordan Walke , software engineer in FB , and first deployed in the FB Newsfeed and later in Whatsapp & Instagram.
+    It is an open source library developed by facebook in 2011. It is used to create single page applications by following component based approach by creating reusable UI components . It is used for developing interactive view layer of web and mobile applications.
+    Features of react include:
+    i) Virtual DOM
+    ii) JSX
+    iii) Components which can be reused.
+    iv) One way data Binding
+    v) Good community support
+    vi) Easy learning curve
+
+    2️⃣Virtual DOM - Whenever an application gets loaded in the browser a Document Object Model is created, In which each element is treated as an object. When a react application is loaded and the react components are mounted, virtual dom is created. It is a lightweight copy of the actual DOM.
+    When any user makes changes which leads to state updation, the changes will go to virtual dom.
+    React has two virtual dom, one virtual dom gets created at the time of mounting of react component so it is a copy of your real dom. Another virtual dom is the dom which contains the new changes, updated state variables values. Now these two virtual doms will get compared with each other and will check for the new changes. this complete procedure is known as diffing algorithm. Now the new changes will be updated in your Real dom. this procedure is known as Recoinciliation.
+
+    3️⃣ Diffing Algorithm - Whenever there is a change in the state of the UI elements, a new virtual DOM is created. Then the new virtual DOM and the previous virtual DOM are compared with each other. This comparing is called DOM diffing.
+
+    4️⃣ React Vs Vue Vs Angular - React is a JS Library. Library is a set of reusable functions used by computer programs. Framework is a piece of code that dictates the architecture of a project.
+    Library is called by the code, but in framework, framework calls the code. We can control the data flow in library using methods, but in framework we do not have any control over the data flow. It decides the data flow which is nothing but it calls the code. Performance-wise , React is much much better than Angular and Vue. br React has an easy learning curve, and it helps to make SPA. It consists of Virtual DOM and It has a great community support which means that whenever you get stuck somewhere, you can get solutions to your code almost instantly.
+
+    5️⃣ Functional Vs Class Components - i) Class Components uses lifecycle methods while Functional Components use hooks.
+    ii) Class Components are called stateful components and Functional Components are called stateless components.
+    iii) render function in Class Components is present, while Functional Components only consists of return.
+    iv)Class Components accept state and props both, while Functional Components accepts only props as an argument.
+    v) Class Components have complex code structure which can be hard to read and write while Functional Components are simple to use and easy to read and write.
+    vi) this keyword is used in Class Components but not in Functional Components.
+
+    6️⃣Stateful Vs Stateless Components - In React, a stateful component is a component that holds some state.They are also called smart components/Class Components.They can be reused.
+    Stateless components, by contrast, have no state. Both types of components can use props. They are also called dumb components/Functional Components and are easy to understand.They do not work with react lifecycle.
+
+    7️⃣Phases of React component Lifecycle - In ReactJS, every component creation process involves various lifecycle methods. These lifecycle methods are termed as component's lifecycle. These lifecycle methods are not very complicated and called at various points during a component's life. The lifecycle of the component is divided into four phases. They are:
+    1. Initial Phase
+    2. Mounting Phase
+    3. Updating Phase
+    4. Unmounting Phase
+    Each phase contains some lifecycle methods that are specific to the particular phase
